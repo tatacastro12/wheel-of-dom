@@ -1,8 +1,33 @@
+ @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Inter:wght@900&display=swap'); 
 
-body{
-background-image:url(./img/background1.png);
-background-repeat: no-repeat;
-background-size: 100%;
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/background1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+    font-family: 'Inter', sans-serif;;
 
 }
 
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid #fff;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.363);
+    padding: 20px;
+    /* height: 3rem; */
+    width: 6rem;
+
+
+}
+
+.titulo{
+    color: #fff;
+    text-align: right;
+}

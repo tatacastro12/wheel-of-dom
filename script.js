@@ -71,4 +71,7 @@ form.addEventListener('submit', (e)=> {
     e.preventDefault()
 })
 
-
+ul.addEventListener( "submit", () =>{
+        localStorage.setItem( '.datos-resividos', datos-resividos.value)
+    }
+)

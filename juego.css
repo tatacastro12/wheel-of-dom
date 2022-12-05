@@ -6,10 +6,23 @@ body {
 
 }
 
-.tenor-gif-embed{
-    width: 100%;
+html, body{
     height: 100%;
+}
+
+.contenedor{
+   height: 50rem;
+   width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.gif{
+    display: flex;
+    height: 40%;
+}
+
+.saludo{
+    text-align: center;
+    color: #ffff;
 }

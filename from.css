@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Inter:wght@900&display=swap');
+
+html, body{
+    height: 100%;
+}
+
+body {
+
+    background-image: url(./img/background2.png);
+    background-repeat: no-repeat;
+    font-family: 'Inter', sans-serif;;
+
+}
+
+.jugadores{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    } 
+    
+    .info{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      
+    
+    }
+    
+    
+    .datos{
+      padding: 10px;
+      width: 50%;
+      margin-bottom: 30Px;
+      background-color: rgba(0, 0, 0, 0.377);
+      border-radius: 10px;
+      border:2px solid black ;
+      box-shadow: 7px 11px 30px #b0a8b8;
+      color: #fff;
+    
+    }
+    .datos-resividos{
+      height: 150px;
+    
+    }
+    
+    .ingreso a {
+      width: 100%;
+      border: 2px solid #fff;
+      text-decoration: none;
+      color: #fff;
+      width: 100%;
+      height: 20px;
+      padding: 10px;
+    
+    }
+    
+
+.player {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.player button {
+  border: solid 1px transparent;
+  background-color: transparent;
+  outline: none;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+
+}
+
+.player button:hover {
+  color: rgb(149, 49, 49);
+}
+
+.form{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}

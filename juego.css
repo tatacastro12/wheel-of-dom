@@ -1,0 +1,28 @@
+body {
+
+    background-image: url(./img/background3.png);
+    background-repeat: no-repeat;
+    font-family: 'Inter', sans-serif;
+
+}
+
+html, body{
+    height: 100%;
+}
+
+.contenedor{
+   height: 50rem;
+   width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gif{
+    display: flex;
+    height: 40%;
+}
+
+.saludo{
+    text-align: center;
+    color: #ffff;
+}
